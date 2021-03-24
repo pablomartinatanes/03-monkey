@@ -1,0 +1,71 @@
+@import "normalize.css";
+
+@font-face {
+	font-family: lato;
+	src: url(../styles/fonts/Lato-Regular.ttf);
+}
+
+@font-face {
+	font-family: droid;
+	src: url(../fonts/DroidSans-Bold.ttf)
+}
+
+@font-face {
+	font-family: roadstar;
+	src: url(../fonts/KTF-Roadstar.ttf)
+}
+
+body {
+    height: 2000px;
+}
+
+.nav-menu {
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    padding: 0 15%;
+    width: 100%;
+    height: 100px;
+    top: 0;
+    background-color: #262626;
+    transition: .5s all ease;
+}
+
+.nav-menu.scrolled {
+    padding: 0% 5%;
+	height: 60px;
+	transition: .5s all ease;
+}
+
+.nav-left {
+    margin-left: 10px;
+}
+
+.nav-right {
+    margin-right: 10px;
+}
+
+.nav-left a {
+    text-decoration: none;
+}
+
+.nav-icon {
+    display: none;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-link {
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: saddlebrown;
+	transition: .5s all ease;
+}
